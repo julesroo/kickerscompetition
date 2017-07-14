@@ -142,13 +142,12 @@ def setup():
     print('Setup complete!')
 
 
-# Set round number
 
-round_number = 1
 
-print "TAFEL COMPETITIE 2017 - ANGRY BIRDS KPN"
-print "RONDE " + str(round_number) + "\n"
 
+print ("--------------------------------------- \n")
+print ("TAFEL COMPETITIE 2017 - ANGRY BIRDS KPN \n")
+print ("--------------------------------------- \n")
 players_df = pd.read_csv('data.csv', sep=';', index_col='ID')
 match_df = pd.read_csv('data.csv', sep=';', index_col='Spelers')
 
@@ -156,6 +155,8 @@ players = players_df['Spelers'].values.tolist()
 
 
 play(match(new_round(schedule(players))))
+
+print(match_df.sort_values('Aantal gewonnen', ascending=False))
 
 
 
