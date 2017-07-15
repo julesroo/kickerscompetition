@@ -1,4 +1,3 @@
-# kickerscompetition
-Python script for a round robin style kickers competition
+# Tafelvoetbal competitie
 
-Script voor tafelvoetbal competitie, gemaakt voor team Angry Birds van KPN.
+Script voor tafelvoetbal competitie, gemaakt voor team Angry Birds.
