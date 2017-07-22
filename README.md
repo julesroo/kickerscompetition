@@ -1,3 +1,3 @@
-# Tafelvoetbal competitie
+# Kickers tournament
 
-Script voor tafelvoetbal competitie, gemaakt voor team Angry Birds.
+A fun project I did for a round-robin style Kickers tournament, written in Python.
