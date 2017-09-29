@@ -12,7 +12,7 @@ def setup():
     players = ["Harry",
                "Wing",
                "Vincent",
-               "Stephan",
+               "Willem",
                "Hesing",
                "Mathieu",
                "Jules",
@@ -75,6 +75,8 @@ def schedule(players):
     subset_df = pd.DataFrame({'Team_one': team_one,
                               'Team_two': team_two,
                               'Gespeeld': zero,
+                              'Score_team_one': zero,
+                              'Score_team_two': zero,
                               'Gewonnen_one': zero,
                               'Gewonnen_two': zero})
     subset_df.to_csv('matches.csv', sep=';')
